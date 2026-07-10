@@ -1,0 +1,6 @@
+package org.example.backend.security;
+
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+public interface AppUserRepo extends MongoRepository<AppUser, String> {
+}
